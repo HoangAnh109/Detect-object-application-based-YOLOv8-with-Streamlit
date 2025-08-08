@@ -8,7 +8,6 @@
 Một ứng dụng web được xây dựng bằng Streamlit, cho phép người dùng thực hiện nhận diện đối tượng trên hình ảnh, video và luồng webcam thời gian thực bằng mô hình YOLOv8.
 
 ![Demo GIF](https://github.com/ultralytics/assets/raw/main/yolov8/banner.png)
-*> **Lưu ý:** Bạn nên thay thế ảnh trên bằng ảnh GIF hoặc ảnh chụp màn hình thực tế của ứng dụng.*
 
 ---
 
@@ -18,9 +17,7 @@ Một ứng dụng web được xây dựng bằng Streamlit, cho phép người
 - [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
 - [Hướng dẫn Cài đặt](#-hướng-dẫn-cài-đặt-và-chạy-dự-án)
 - [Cách sử dụng](#-cách-sử-dụng)
-- [Vấn đề đã biết](#-vấn-đề-đã-biết-known-issues)
-- [Giấy phép](#-giấy-phép)
-- [Tác giả](#-tác-giả)
+
 
 ---
 
