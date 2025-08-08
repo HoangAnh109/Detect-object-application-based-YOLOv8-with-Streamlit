@@ -16,7 +16,7 @@ Một ứng dụng web được xây dựng bằng Streamlit, cho phép người
 - [Tính năng chính](#-tính-năng-chính)
 - [Công nghệ sử dụng](#-công-nghệ-sử-dụng)
 - [Hướng dẫn Cài đặt](#-hướng-dẫn-cài-đặt-và-chạy-dự-án)
-- [Cách sử dụng](#-cách-sử-dụng)
+
 
 
 ---
@@ -52,3 +52,4 @@ Clone repository này về máy của bạn:
 ```bash
 git clone [ĐỊA_CHỈ_GIT_REPO_CỦA_BẠN]
 cd [TÊN_THƯ_MỤC_DỰ_ÁN]
+
