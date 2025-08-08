@@ -46,8 +46,6 @@ Một ứng dụng web được xây dựng bằng Streamlit, cho phép người
 
 Để chạy được dự án này trên máy của bạn, hãy làm theo các bước sau:
 
-
-Clone repository này về máy của bạn:
 ```bash
 git clone https://github.com/HoangAnh109/Detect-object-application-based-YOLOv8-with-Streamlit.git detect-app
 cd detect-app
