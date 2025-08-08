@@ -46,10 +46,20 @@ Một ứng dụng web được xây dựng bằng Streamlit, cho phép người
 
 Để chạy được dự án này trên máy của bạn, hãy làm theo các bước sau:
 
-#### **Bước 1: Tải mã nguồn**
 
 Clone repository này về máy của bạn:
 ```bash
-git clone [ĐỊA_CHỈ_GIT_REPO_CỦA_BẠN]
-cd [TÊN_THƯ_MỤC_DỰ_ÁN]
+git clone https://github.com/HoangAnh109/Detect-object-application-based-YOLOv8-with-Streamlit.git detect-app
+cd detect-app
+
+conda create --name detect-app
+
+# Kích hoạt môi trường vừa tạo
+conda activate yolo_app
+
+# Cài đặt tất cả các gói từ file requirements.txt bằng pip
+pip install -r requirements.txt
+
+# Thực thi file app.py
+streamlit run your_app_name.py --server.fileWatcherType none
 
