@@ -86,7 +86,7 @@ Một ứng dụng web được xây dựng bằng Streamlit, cho phép người
 
 Sau khi chạy lệnh, một tab mới trên trình duyệt sẽ tự động mở ra với địa chỉ `http://localhost:8501`, hiển thị ứng dụng.
 
-![Demo](https://raw.githubusercontent.com/HoangAnh109/Detect-object-application-based-YOLOv8-with-Streamlit/main/assets/detection.jpg)
+![Demo](https://raw.githubusercontent.com/HoangAnh109/Detect-object-application-based-YOLOv8-with-Streamlit/main/detectapp.jpg)
 
 ---
 
