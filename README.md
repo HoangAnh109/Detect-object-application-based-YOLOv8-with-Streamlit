@@ -46,18 +46,49 @@ Một ứng dụng web được xây dựng bằng Streamlit, cho phép người
 
 Để chạy được dự án này trên máy của bạn, hãy làm theo các bước sau:
 
-```bash
-git clone https://github.com/HoangAnh109/Detect-object-application-based-YOLOv8-with-Streamlit.git detect-app
-cd detect-app
+### Các bước cài đặt
 
-conda create --name detect-app
+1.  **Clone repository về máy:**
+    Mở terminal hoặc command prompt và chạy lệnh sau:
+    ```bash
+    git clone https://github.com/HoangAnh109/Detect-object-application-based-YOLOv8-with-Streamlit.git detect-app
+    cd detect-app
+    ```
 
-# Kích hoạt môi trường vừa tạo
-conda activate yolo_app
+2.  **Tạo và kích hoạt môi trường Conda:**
+    Điều này giúp cô lập các thư viện của dự án, tránh xung đột với các dự án khác.
+    ```bash
+    # Tạo môi trường mới tên là detect-app với Python 3.9
+    conda create --name detect-app python=3.9 -y
 
-# Cài đặt tất cả các gói từ file requirements.txt bằng pip
-pip install -r requirements.txt
+    # Kích hoạt môi trường vừa tạo
+    conda activate detect-app
+    ```
+    *Ghi chú: Nếu không sử dụng Conda, có thể tạo môi trường ảo bằng `venv`:*
+    ```bash
+    # python -m venv venv
+    # source venv/bin/activate  (trên Linux/macOS)
+    # venv\Scripts\activate  (trên Windows)
+    ```
 
-# Thực thi file app.py
-streamlit run detectapp.py --server.fileWatcherType none
+3.  **Cài đặt các thư viện cần thiết:**
+    Tất cả các gói cần thiết được liệt kê trong file `requirements.txt`.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Chạy ứng dụng Streamlit:**
+    Sau khi cài đặt thành công, chạy lệnh sau để khởi động ứng dụng:
+    ```bash
+    streamlit run detectapp.py --server.fileWatcherType none
+    ```
+    -   Lệnh `streamlit run` sẽ khởi động một web server cục bộ.
+    -   Tham số `--server.fileWatcherType none` giúp tăng tính ổn định và tránh việc ứng dụng tự chạy lại không cần thiết trong một số môi trường.
+
+Sau khi chạy lệnh, một tab mới trên trình duyệt sẽ tự động mở ra với địa chỉ `http://localhost:8501`, hiển thị ứng dụng.
+
+![Demo](https://raw.githubusercontent.com/HoangAnh109/Detect-object-application-based-YOLOv8-with-Streamlit/main/assets/detection.jpg)
+
+---
+
 
