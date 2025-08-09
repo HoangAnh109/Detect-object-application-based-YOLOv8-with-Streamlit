@@ -59,5 +59,5 @@ conda activate yolo_app
 pip install -r requirements.txt
 
 # Thực thi file app.py
-streamlit run your_app_name.py --server.fileWatcherType none
+streamlit run detectapp.py --server.fileWatcherType none
 
